@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+html {
+    color: white;
+    background-color: Green;
+}
+
+img {
+    border: solid 3px green;
+}
+
+th {
+    text-align: left;
+}
+
+table {
+    width: 600px;
+}
+
+table, th, td {
+    font-weight: normal;
+    background-color: lightgreen;
+    color: black;
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px
+}
+
+caption {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:white 
+}
+
+th:first-of-type {
+    font-weight: bold; 
+    text-align: center;
+}
+
+
+.imglocation {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.listpadding {
+    padding-left: 10px;
+}
+
